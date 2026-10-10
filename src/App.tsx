@@ -1,10 +1,10 @@
-import profilePic from './assets/profile.jpg';
-import carbonLogo from './assets/carbon-logo.png';
+import profilePic from './assets/profile.webp';
+import carbonLogo from './assets/carbon-logo.ico';
 
 export default function App() {
   return (
     <div className="min-h-screen bg-[#0b0b0d] text-white p-10">
-      {/* New Profile Picture */}
+      {/* Profile Picture (.webp) */}
       <img 
         src={profilePic} 
         alt="Haru Unabara" 
@@ -13,7 +13,7 @@ export default function App() {
       
       <h1 className="text-4xl font-bold mb-4">Haru Unabara</h1>
       
-      {/* New Carbon Logo */}
+      {/* Carbon Logo (.ico) */}
       <div className="flex items-center gap-4 mt-8 mb-8">
         <img 
           src={carbonLogo} 
